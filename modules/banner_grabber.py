@@ -1,4 +1,5 @@
 import socket
+from utils import logger
 
 def grab_banner(ip, port):
     try:
@@ -6,8 +7,8 @@ def grab_banner(ip, port):
         s.connect((ip, port))
         s.settimeout(2)
         banner = s.recv(1024).decode().strip()
-        print(f"[+] {ip}:{port} - {banner}")
+        logger.info(f"{ip}:{port} - {banner}")
     except Exception as e:
-        print(f"[-] Could not grab banner for {ip}:{port} - {e}")
+        logger.error(f"Could not grab banner for {ip}:{port} - {e}")
     finally:
         s.close()
