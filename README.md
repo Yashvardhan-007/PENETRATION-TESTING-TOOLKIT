@@ -1,5 +1,3 @@
-# PENETRATION-TESTING-TOOLKIT
-
 # 🛠️ Penetration Testing Toolkit
 
 A modular, Python-based toolkit for penetration testing and ethical hacking. This toolkit includes essential tools for information gathering and brute-force testing, all bundled into a CLI-based interface.
