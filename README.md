@@ -1,3 +1,19 @@
+PENETRATION TESTING TOOLKIT
+
+**COMPANY - CODETECH IT SOLUTIONS
+
+**NAME - YASHVARDHAN SINGH
+
+**INTERN ID - CT06DH2788
+
+**DOMAIN - CYBER SECURITY AND ETHICAL HACKING
+
+**DURATION - 6 WEEKS
+
+**MENTOR - NEELA SANTHOSH KUMAR
+
+DESCRIPTION OF THE TASK
+
 # 🛠️ Penetration Testing Toolkit
 
 A modular, Python-based toolkit for penetration testing and ethical hacking. This toolkit includes essential tools for information gathering and brute-force testing, all bundled into a CLI-based interface.
