@@ -66,12 +66,15 @@ pentest_toolkit/
 ├── main.py
 ├── requirements.txt
 ├── README.md
+├── toolkit.log              
 ├── modules/
 │   ├── port_scanner.py
 │   ├── ssh_bruteforcer.py
 │   ├── ftp_bruteforcer.py
 │   ├── subdomain_enum.py
 │   └── banner_grabber.py
+├── utils/
+│   └── logger.py
 
 
 
